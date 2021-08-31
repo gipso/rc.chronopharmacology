@@ -1,0 +1,61 @@
+Package: sqlr.pharmacology
+Title: R Package for the Biological Rhythms and Pharmacology Project
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Alisson",
+             family = "da Silva Rodrigues dos Santos",
+             role = c("aut", "cph"),
+             email = "alisson.rodriguesds@gmail.com",
+             comment = c(ORCID = "0000-0002-5455-3562")),
+      person(given = "Daniel",
+             family = "Vartanian",
+             role = c("aut", "cre", "cph"),
+             email = "danvartan@gmail.com",
+             comment = c(ORCID = "0000-0001-7782-759X")),
+      person(given = "Ana Amelia",
+             family = "Benedito-Silva",
+             email = "aamelia@usp.br",
+             role = c("aut", "sad"),
+             comment = c(ORCID = "0000-0003-4976-2623")),
+      person(given = "Mario",
+             family = "Pedrazzoli",
+             email = "pedrazzo@usp.br",
+             role = c("aut", "sad"),
+             comment = c(ORCID = "0000-0002-5257-591X")),
+      person(given = "Interdisciplinary Sleep Research Group (GIPSO)",
+             role = "fnd"),
+      person(given = "University of Sao Paulo (USP)",
+             role = "fnd"))
+Maintainer: Daniel Vartanian <danvartan@gmail.com>
+Description: Research compendium of the biological rhythms and pharmacology 
+      project: a systematic quantitative literature review.
+License: MIT + file LICENSE
+URL: https://gipso.github.io/sqlr.pharmacology/, 
+     https://github.com/gipso/sqlr.pharmacology/
+BugReports: https://github.com/gipso/sqlr.pharmacology/issues/
+Depends:
+    R (>= 4.1)
+Imports: 
+    checkmate (>= 2.0.0),
+    cli (>= 3.0.1),
+    dplyr (>= 1.0.7),
+    lifecycle (>= 1.0.0),
+    sqlr
+Suggests: 
+    covr,
+    knitr,
+    mockr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Remotes: 
+    github::gipsousp/sqlr
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+LazyDataCompression: bzip2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

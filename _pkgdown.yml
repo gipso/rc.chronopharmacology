@@ -1,0 +1,55 @@
+url: https://gipsousp.github.io/sqlr.pharmacology/
+
+template:
+  params:
+    bootswatch: cosmo
+    ganalytics: G-VNK9JBPKD1
+    mathjax: true
+    noindex: true
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [github]
+  components:
+    home: ~
+    news: ~
+    articles: ~
+
+reference:
+- title: Data
+  contents:
+  - sheets
+  - domain
+  - constraint
+  - keyword
+  - source
+  - search
+  - criteria
+  - trial
+  - critical_appraisal
+  - reference
+  - document
+
+- title: Utilities
+  contents:
+  - raw_data
+
+authors:
+  Alisson da Silva Rodrigues dos Santos:
+    href: https://github.com/AlissonSRSantos
+  Daniel Vartanian:
+    href: https://github.com/danielvartan
+  Ana Amelia Benedito-Silva:
+    href: https://github.com/AnaAmeliaBeneditoSIlva
+  Mario Pedrazzoli:
+    href: https://github.com/pedrazzo
+  Interdisciplinary Sleep Research Group (GIPSO):
+    href: http://each.usp.br/gipso
+  University of Sao Paulo (USP):
+    href: http://usp.br
+
+development:
+  mode: auto
+  destination: doc
+  version_label: warning
