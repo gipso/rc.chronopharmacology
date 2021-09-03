@@ -4,14 +4,14 @@
     "http://schema.org"
   ],
   "@type": "SoftwareSourceCode",
-  "identifier": "sqlr.pharmacology",
+  "identifier": "pharmacology",
   "description": "Research compendium of the biological rhythms and pharmacology \n      project: a systematic quantitative literature review.",
-  "name": "sqlr.pharmacology: R Package for the Biological Rhythms and Pharmacology Project",
-  "codeRepository": "https://github.com/gipso/sqlr.pharmacology/",
+  "name": "pharmacology: R Package for the Biological Rhythms and Pharmacology Project",
+  "codeRepository": "https://github.com/gipso/pharmacology/",
   "relatedLink": [
-    "https://gipso.github.io/sqlr.pharmacology/"
+    "https://gipso.github.io/pharmacology/"
   ],
-  "issueTracker": "https://github.com/gipso/sqlr.pharmacology/issues/",
+  "issueTracker": "https://github.com/gipso/pharmacology/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
   "programmingLanguage": {
@@ -224,11 +224,11 @@
       "@type": "SoftwareApplication",
       "identifier": "sqlr",
       "name": "sqlr",
-      "sameAs": "https://github.com/gipso/sqlr"
+      "sameAs": "https://github.com/gipsousp/sqlr"
     }
   ],
   "fileSize": "0KB",
-  "contIntegration": "https://codecov.io/gh/gipso/sqlr.pharmacology",
+  "contIntegration": "https://codecov.io/gh/gipso/pharmacology",
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "keywords": [
     "r-package",
@@ -262,9 +262,11 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "{sqlr.pharmacology}: an R package with the research compendium of the biological rhythms and pharmacology project: a systematic quantitative literature review",
-      "url": "https://gipso.github.io/sqlr.pharmacology/",
+      "name": "{pharmacology}: an R package with the research compendium of the biological rhythms and pharmacology project: a systematic quantitative literature review",
+      "url": "https://gipso.github.io/pharmacology/",
       "description": "Lifecycle: experimental"
     }
-  ]
+  ],
+  "releaseNotes": "https://github.com/gipso/pharmacology/blob/master/NEWS.md",
+  "readme": "https://github.com/gipso/pharmacology/blob/main/README.md"
 }

@@ -1,4 +1,4 @@
-Package: sqlr.pharmacology
+Package: pharmacology
 Title: R Package for the Biological Rhythms and Pharmacology Project
 Version: 0.0.0.9000
 Authors@R: 
@@ -30,9 +30,9 @@ Maintainer: Daniel Vartanian <danvartan@gmail.com>
 Description: Research compendium of the biological rhythms and pharmacology 
       project: a systematic quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipso.github.io/sqlr.pharmacology/, 
-     https://github.com/gipso/sqlr.pharmacology/
-BugReports: https://github.com/gipso/sqlr.pharmacology/issues/
+URL: https://gipso.github.io/pharmacology/, 
+     https://github.com/gipso/pharmacology/
+BugReports: https://github.com/gipso/pharmacology/issues/
 Depends:
     R (>= 4.1)
 Imports: 

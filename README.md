@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# sqlr.pharmacology
+# pharmacology
 
 <!-- badges: start -->
 
@@ -10,14 +10,14 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/gipso/sqlr.pharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/sqlr.pharmacology/actions)
-[![codecov](https://codecov.io/gh/gipso/sqlr.pharmacology/branch/main/graph/badge.svg?token=2bnHxbdw4M)](https://codecov.io/gh/gipso/sqlr.pharmacology)
+[![R-CMD-check](https://github.com/gipso/pharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/pharmacology/actions)
+[![codecov](https://codecov.io/gh/gipso/pharmacology/branch/main/graph/badge.svg?token=2bnHxbdw4M)](https://codecov.io/gh/gipso/pharmacology)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
-`sqlr.pharmacology` is an R package with the biological rhythms and
-pharmacology research compendium. The aim of `sqlr.pharmacology` is to
+`pharmacology` is an R package with the biological rhythms and
+pharmacology research compendium. The aim of `pharmacology` is to
 facilitate the research work, in addition to contributing to the
 reproducibility of the research.
 
@@ -30,42 +30,42 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 ## Installation
 
-`sqlr.pharmacology` is still at the
+`pharmacology` is still at the
 [experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 stage of development, that means that people can use the package and
 provide feedback, but it comes with no promises for long term stability.
 
-You can install `sqlr.pharmacology` from GitHub with:
+You can install `pharmacology` from GitHub with:
 
 ``` r
 # install.packages("pak")
-pak::pkg_install("gipso/sqlr.pharmacology")
+pak::pkg_install("gipso/pharmacology")
 ```
 
 ## Citation
 
-If you use `sqlr.pharmacology` in your research, please consider citing
-it. We put a lot of work to build and maintain a free and open-source R
-package. You can find the `sqlr.pharmacology` citation below.
+If you use `pharmacology` in your research, please consider citing it.
+We put a lot of work to build and maintain a free and open-source R
+package. You can find the `pharmacology` citation below.
 
 ``` r
-citation("sqlr.pharmacology")
+citation("pharmacology")
 #> 
-#> To cite {sqlr.pharmacology} in publications use:
+#> To cite {pharmacology} in publications use:
 #> 
 #>   Santos, A. S. R., Vartanian, D., Benedito-Silva, A. A., Pedrazzoli,
-#>   M. (2021). {sqlr.pharmacology}: an R package with the research
-#>   compendium of the biological rhythms and pharmacology project: a
-#>   systematic quantitative literature review. Retrieved from
-#>   https://gipso.github.io/sqlr.pharmacology/.
+#>   M. (2021). {pharmacology}: an R package with the research compendium
+#>   of the biological rhythms and pharmacology project: a systematic
+#>   quantitative literature review. Retrieved from
+#>   https://gipso.github.io/pharmacology/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {{sqlr.pharmacology}: an R package with the research compendium of the biological rhythms and pharmacology project: a systematic quantitative literature review},
+#>     title = {{pharmacology}: an R package with the research compendium of the biological rhythms and pharmacology project: a systematic quantitative literature review},
 #>     author = {Alisson da Silva Rodrigues dos Santos and Daniel Vartanian and Ana Amelia Benedito-Silva and Mario Pedrazzoli},
 #>     year = {2021},
-#>     url = {https://gipso.github.io/sqlr.pharmacology/},
+#>     url = {https://gipso.github.io/pharmacology/},
 #>     note = {Lifecycle: experimental},
 #>   }
 ```

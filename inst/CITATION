@@ -1,8 +1,8 @@
-citHeader("To cite {sqlr.pharmacology} in publications use:")
+citHeader("To cite {pharmacology} in publications use:")
 
 citEntry(
   entry       = "Unpublished",
-  title       = paste0("{sqlr.pharmacology}:", " ",
+  title       = paste0("{pharmacology}:", " ",
                        "an R package with the research compendium of the", " ",
                        "biological rhythms and pharmacology", " ",
                        "project:", " ",
@@ -13,18 +13,18 @@ citEntry(
                            as.person("Mario Pedrazzoli")),
   year        = "2021",
   url         = paste0("https://gipso.github.io/",
-                        "sqlr.pharmacology/"),
+                        "pharmacology/"),
   textVersion = paste0("Santos, A. S. R.", ", ",
                        "Vartanian, D.", ", ",
                        "Benedito-Silva, A. A.", ", ",
                        "Pedrazzoli, M.", " ",
                        "(2021)",  ". ",
-                       "{sqlr.pharmacology}:", " ",
+                       "{pharmacology}:", " ",
                        "an R package with the research compendium of the", " ",
                        "biological rhythms and pharmacology", " ",
                        "project:", " ",
                        "a systematic quantitative literature review.", " ",
                        "Retrieved from https://gipso.github.io/",
-                       "sqlr.pharmacology/", "."),
+                       "pharmacology/", "."),
   note        = "Lifecycle: experimental"
 )

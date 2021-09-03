@@ -1,8 +1,8 @@
 library(checkmate)
 library(testthat)
-library(sqlr.pharmacology)
+library(pharmacology)
 
-test_check("sqlr.pharmacology")
+test_check("pharmacology")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C))
 #
