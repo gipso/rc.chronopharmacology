@@ -31,31 +31,33 @@ test_check("pharmacology")
 # usethis::use_pkgdown_github_pages()
 # usethis::use_tidy_description()
 
-# SQLR System
+# # SQLR System
 #
 # googlesheets4::gs4_auth()
 #
-# sqlr::write_metadata("1v7N31XDoRj7W8CiXM6iOJnqdJraM8eICyiWCeiXRwGY")
-# devtools::document()
-# devtools::load_all()
+# ## Processing and writing queries on 'search'
+#
+# sqlr::write_metadata("1Y6oiieWaSmO0DxM8Qk7i_oT4t5bXDlBaE6a_o4WfLC8")
 # sqlr::write_sheet()
-# devtools::document()
-# devtools::load_all()
+# sqlr::write_query()
 #
-# .rs.restartR()
+# ## Processing and writing 'reference' and 'trial_dup'
 #
-# devtools::install()
-#
-# devtools::load_all(".")
+# sqlr::normalize_extdata()
+# sqlr::write_sheet()
 # sqlr::build_reference()
+# sqlr::write_trial("DUP")
 #
-# devtools::document()
-# devtools::load_all()
+# ## Processing and writing 'trial_nr1'
+# ## Approve the previous trial in the 'trial' table before running this
 #
-# sqlr::write_trial()
-# nrow(dplyr::filter(reference, criteria_id == "DUP")) +
-# sqlr::sheet_nrow("trial_nr1") == nrow(reference)
+# sqlr::write_sheet()
+# sqlr::write_trial("NR1")
 #
-# .rs.restartR()
+# ## Updating 'reference' and populating 'trial_*'
+# ## Approve the previous trial in the 'trial' table before running this
 #
-# devtools::install()
+# sqlr::write_metadata("[ADD SHEETS ID]")
+# sqlr::write_sheet()
+# sqlr::update_reference("[ADD TRIAL ID]")
+# sqlr::write_trial("[ADD TRIAL ID]")

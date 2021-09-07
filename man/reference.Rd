@@ -5,7 +5,7 @@
 \alias{reference}
 \title{Reference dataset}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 0 rows and 0 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 24907 rows and 40 columns.
 }
 \usage{
 reference
