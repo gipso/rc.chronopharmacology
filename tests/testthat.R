@@ -57,7 +57,7 @@ test_check("pharmacology")
 # ## Updating 'reference' and populating 'trial_*'
 # ## Approve the previous trial in the 'trial' table before running this
 #
-# sqlr::write_metadata("[ADD SHEETS ID]")
+# sqlr::write_metadata("1Y6oiieWaSmO0DxM8Qk7i_oT4t5bXDlBaE6a_o4WfLC8")
 # sqlr::write_sheet()
 # sqlr::update_reference("[ADD TRIAL ID]")
 # sqlr::write_trial("[ADD TRIAL ID]")
