@@ -5,8 +5,8 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "pharmacology",
-  "description": "Research compendium of the biological rhythms and pharmacology \n      project: a systematic quantitative literature review.",
-  "name": "pharmacology: R Package for the Biological Rhythms and Pharmacology Project",
+  "description": "An R package with the research compendium of the GIPSO's \n     biological rhythms and pharmacology systematic quantitative literature \n     review.",
+  "name": "pharmacology: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR",
   "codeRepository": "https://github.com/gipso/pharmacology/",
   "relatedLink": [
     "https://gipso.github.io/pharmacology/"
@@ -19,7 +19,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
   "author": [
     {
       "@type": "Person",
@@ -34,13 +34,6 @@
       "familyName": "Vartanian",
       "email": "danvartan@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
-    },
-    {
-      "@type": "Person",
-      "givenName": "Ana Amelia",
-      "familyName": "Benedito-Silva",
-      "email": "aamelia@usp.br",
-      "@id": "https://orcid.org/0000-0003-4976-2623"
     },
     {
       "@type": "Person",
@@ -227,8 +220,8 @@
       "sameAs": "https://github.com/gipsousp/sqlr"
     }
   ],
-  "fileSize": "0KB",
-  "contIntegration": "https://codecov.io/gh/gipso/pharmacology",
+  "fileSize": "54633.542KB",
+  "contIntegration": ["https://github.com/gipso/pharmacology/actions", "https://codecov.io/gh/gipso/pharmacology"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "keywords": [
     "r-package",
@@ -253,16 +246,11 @@
         },
         {
           "@type": "Person",
-          "givenName": ["Ana", "Amelia"],
-          "familyName": "Benedito-Silva"
-        },
-        {
-          "@type": "Person",
           "givenName": "Mario",
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "{pharmacology}: an R package with the research compendium of the biological rhythms and pharmacology project: a systematic quantitative literature review",
+      "name": "{pharmacology}: an R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review",
       "url": "https://gipso.github.io/pharmacology/",
       "description": "Lifecycle: experimental"
     }

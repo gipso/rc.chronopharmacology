@@ -1,5 +1,5 @@
 Package: pharmacology
-Title: R Package for the Biological Rhythms and Pharmacology Project
+Title: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Alisson",
@@ -12,11 +12,6 @@ Authors@R:
              role = c("aut", "cre", "cph"),
              email = "danvartan@gmail.com",
              comment = c(ORCID = "0000-0001-7782-759X")),
-      person(given = "Ana Amelia",
-             family = "Benedito-Silva",
-             email = "aamelia@usp.br",
-             role = c("aut", "sad"),
-             comment = c(ORCID = "0000-0003-4976-2623")),
       person(given = "Mario",
              family = "Pedrazzoli",
              email = "pedrazzo@usp.br",
@@ -27,8 +22,9 @@ Authors@R:
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
-Description: Research compendium of the biological rhythms and pharmacology 
-      project: a systematic quantitative literature review.
+Description: An R package with the research compendium of the GIPSO's 
+     biological rhythms and pharmacology systematic quantitative literature 
+     review.
 License: MIT + file LICENSE
 URL: https://gipso.github.io/pharmacology/, 
      https://github.com/gipso/pharmacology/
@@ -58,4 +54,4 @@ Language: en-US
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2

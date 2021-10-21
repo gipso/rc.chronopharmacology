@@ -4,10 +4,9 @@
 \name{pharmacology-package}
 \alias{pharmacology}
 \alias{pharmacology-package}
-\title{pharmacology: R Package for the Biological Rhythms and Pharmacology Project}
+\title{pharmacology: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR}
 \description{
-Research compendium of the biological rhythms and pharmacology 
-      project: a systematic quantitative literature review.
+An R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review.
 }
 \seealso{
 Useful links:
@@ -24,7 +23,6 @@ Useful links:
 Authors:
 \itemize{
   \item Alisson da Silva Rodrigues dos Santos \email{alisson.rodriguesds@gmail.com} (\href{https://orcid.org/0000-0002-5455-3562}{ORCID}) [copyright holder]
-  \item Ana Amelia Benedito-Silva \email{aamelia@usp.br} (\href{https://orcid.org/0000-0003-4976-2623}{ORCID}) [scientific advisor]
   \item Mario Pedrazzoli \email{pedrazzo@usp.br} (\href{https://orcid.org/0000-0002-5257-591X}{ORCID}) [scientific advisor]
 }
 
