@@ -11,7 +11,8 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/gipso/pharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/pharmacology/actions)
-[![codecov](https://codecov.io/gh/gipso/pharmacology/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/pharmacology)
+[![Codecov test
+coverage](https://codecov.io/gh/gipso/pharmacology/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/pharmacology?branch=main)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
