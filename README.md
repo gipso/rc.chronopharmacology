@@ -58,8 +58,7 @@ citation("pharmacology")
 #>   Santos, A. S. R., Vartanian, D., Pedrazzoli, M. (2021).
 #>   {pharmacology}: an R package with the research compendium of the
 #>   GIPSO's biological rhythms and pharmacology systematic quantitative
-#>   literature review. Retrieved from
-#>   https://gipso.github.io/pharmacology/.
+#>   literature review. https://gipso.github.io/pharmacology/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 

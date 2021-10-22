@@ -6,6 +6,8 @@
 \alias{pharmacology-package}
 \title{pharmacology: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR}
 \description{
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
 An R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review.
 }
 \seealso{

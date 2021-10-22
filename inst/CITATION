@@ -22,7 +22,7 @@ citEntry(
                        "GIPSO's", " ",
                        "biological rhythms and pharmacology", " ",
                        "systematic quantitative literature review.", " ",
-                       "Retrieved from https://gipso.github.io/",
+                       "https://gipso.github.io/",
                        "pharmacology/", "."),
   note        = "Lifecycle: experimental"
 )

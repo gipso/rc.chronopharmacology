@@ -202,6 +202,12 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "gutils",
+      "name": "gutils",
+      "sameAs": "https://github.com/gipso/gutils"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
       "version": ">= 1.0.0",
@@ -220,8 +226,8 @@
       "sameAs": "https://github.com/gipsousp/sqlr"
     }
   ],
-  "fileSize": "54633.542KB",
-  "contIntegration": ["https://github.com/gipso/pharmacology/actions", "https://codecov.io/gh/gipso/pharmacology"],
+  "fileSize": "54633.231KB",
+  "contIntegration": ["https://github.com/gipso/pharmacology/actions", "https://codecov.io/gh/gipso/pharmacology?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "keywords": [
     "r-package",
