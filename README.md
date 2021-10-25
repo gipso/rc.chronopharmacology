@@ -17,6 +17,8 @@ coverage](https://codecov.io/gh/gipso/pharmacology/branch/main/graph/badge.svg)]
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
+## Overview
+
 `pharmacology` is an R package with the research compendium of the
 GIPSO’s biological rhythms and pharmacology systematic quantitative
 literature review. The aim of `pharmacology` is to facilitate the

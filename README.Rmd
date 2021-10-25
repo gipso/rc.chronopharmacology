@@ -25,6 +25,8 @@ library(pharmacology)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
+## Overview
+
 `pharmacology` is an R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review. The aim of `pharmacology` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger & Lincoln Mullen's article ["Packaging Data Analytical Work Reproducibly Using R (and Friends)"](https://doi.org/10.1080/00031305.2017.1375986).
