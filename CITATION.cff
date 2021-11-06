@@ -1,0 +1,50 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "pharmacology" in publications use:'
+type: software
+license: MIT
+title: 'pharmacology: Research Compendium of the GIPSO''s B. Rhythms and Pharmacology
+  SQLR'
+version: 0.0.0.9000
+abstract: An R package with the research compendium of the GIPSO's biological rhythms
+  and pharmacology systematic quantitative literature review.
+authors:
+- family-names: da Silva Rodrigues dos Santos
+  given-names: Alisson
+  email: alisson.rodriguesds@gmail.com
+  orcid: https://orcid.org/0000-0002-5455-3562
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+- family-names: Pedrazzoli
+  given-names: Mario
+  email: pedrazzo@usp.br
+  orcid: https://orcid.org/0000-0002-5257-591X
+preferred-citation:
+  type: unpublished
+  title: 'pharmacology: an R package with the research compendium of the GIPSO''s
+    biological rhythms and pharmacology systematic quantitative literature review'
+  authors:
+  - family-names: Santos
+    given-names: Alisson da Silva Rodrigues dos
+  - family-names: Vartanian
+    given-names: Daniel
+  - family-names: Pedrazzoli
+    given-names: Mario
+  year: '2021'
+  url: https://gipso.github.io/pharmacology/
+repository-code: https://github.com/gipso/pharmacology/issues/
+url: https://gipso.github.io/pharmacology/
+contact:
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+identifiers:
+- type: url
+  value: https://github.com/gipso/pharmacology/

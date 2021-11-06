@@ -1,5 +1,5 @@
 Package: pharmacology
-Title: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR
+Title: Research Compendium of the GIPSO B. Rhythms and Pharmacology SQLR
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Alisson",
@@ -9,7 +9,7 @@ Authors@R:
              comment = c(ORCID = "0000-0002-5455-3562")),
       person(given = "Daniel",
              family = "Vartanian",
-             role = c("aut", "cre", "cph"),
+             role = c("aut", "cph", "cre"),
              email = "danvartan@gmail.com",
              comment = c(ORCID = "0000-0001-7782-759X")),
       person(given = "Mario",
@@ -21,7 +21,6 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Maintainer: Daniel Vartanian <danvartan@gmail.com>
 Description: An R package with the research compendium of the GIPSO's 
      biological rhythms and pharmacology systematic quantitative literature 
      review.
@@ -33,17 +32,17 @@ Depends:
     R (>= 4.1)
 Imports: 
     checkmate (>= 2.0.0),
-    cli (>= 3.0.1),
+    cli (>= 3.1.0),
     dplyr (>= 1.0.7),
     gutils,
-    lifecycle (>= 1.0.0),
+    lifecycle (>= 1.0.1),
     sqlr
 Suggests: 
-    covr,
-    knitr,
-    mockr,
-    rmarkdown,
-    spelling,
+    covr (>= 3.5.1),
+    knitr (>= 1.36),
+    mockr (>= 0.1),
+    rmarkdown (>= 2.11),
+    spelling (>= 2.2),
     testthat (>= 3.0.0)
 Remotes: 
     github::gipso/gutils,

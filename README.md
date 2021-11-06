@@ -34,17 +34,14 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 ## Installation
 
-`pharmacology` is still at the
-[experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-stage of development. That means people can use the package and provide
-feedback, but it comes with no promises for long term stability.
-
 You can install `pharmacology` from GitHub with:
 
 ``` r
 # install.packages("remotes")
 remotes::install_github("gipso/pharmacology")
 ```
+
+We don’t intend to publish this package to CRAN.
 
 ## Citation
 
