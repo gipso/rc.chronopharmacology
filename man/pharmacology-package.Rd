@@ -4,7 +4,7 @@
 \name{pharmacology-package}
 \alias{pharmacology}
 \alias{pharmacology-package}
-\title{pharmacology: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR}
+\title{pharmacology: Research Compendium of the GIPSO B. Rhythms and Pharmacology SQLR}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 

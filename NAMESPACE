@@ -2,3 +2,4 @@
 
 export(raw_data)
 importFrom(dplyr,"%>%")
+importFrom(lifecycle,deprecate_soft)
