@@ -1,45 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gipso.github.io/pharmacology//index.html</loc>
+    <loc>https://gipso.github.io/pharmacology/404.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/constraint.html</loc>
+    <loc>https://gipso.github.io/pharmacology/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/criteria.html</loc>
+    <loc>https://gipso.github.io/pharmacology/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/critical_appraisal.html</loc>
+    <loc>https://gipso.github.io/pharmacology/authors.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/document.html</loc>
+    <loc>https://gipso.github.io/pharmacology/index.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/domain.html</loc>
+    <loc>https://gipso.github.io/pharmacology/news/index.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/keyword.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/constraint.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/pharmacology-package.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/criteria.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/raw_data.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/critical_appraisal.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/reference.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/document.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/search.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/domain.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/sheets.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/source.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/keyword.html</loc>
   </url>
   <url>
-    <loc>https://gipso.github.io/pharmacology//reference/trial.html</loc>
+    <loc>https://gipso.github.io/pharmacology/reference/pharmacology-package.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/pharmacology/reference/raw_data.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/pharmacology/reference/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/pharmacology/reference/search.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/pharmacology/reference/sheets.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/pharmacology/reference/source.html</loc>
+  </url>
+  <url>
+    <loc>https://gipso.github.io/pharmacology/reference/trial.html</loc>
   </url>
 </urlset>
