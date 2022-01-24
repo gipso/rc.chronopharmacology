@@ -14,7 +14,7 @@ citEntry(
   url         = paste0("https://gipso.github.io/",
                         "pharmacology/"),
   textVersion = paste0("Santos, A. S. R.", ", ",
-                       "Vartanian, D.", ", ",
+                       "Vartanian, D.", ", & ",
                        "Pedrazzoli, M.", " ",
                        "(2021)",  ". ",
                        "{pharmacology}:", " ",
@@ -23,6 +23,6 @@ citEntry(
                        "biological rhythms and pharmacology", " ",
                        "systematic quantitative literature review.", " ",
                        "https://gipso.github.io/",
-                       "pharmacology/", "."),
+                       "pharmacology/"),
   note        = "Lifecycle: experimental"
 )
