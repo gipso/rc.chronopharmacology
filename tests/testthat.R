@@ -1,8 +1,8 @@
 library(checkmate)
 library(testthat)
-library(pharmacology)
+library(rc.chronopharmacology)
 
-test_check("pharmacology")
+test_check("rc.chronopharmacology")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C)).
 #
@@ -31,7 +31,7 @@ test_check("pharmacology")
 # usethis::use_coverage()
 # usethis::use_github_action("check-pak")
 # usethis::use_github_action("test-coverage-pak")
-# usethis::use_logo("./.archive/ai/hex-logo.png")
+# usethis::use_logo(file.choose())
 # usethis::use_tidy_description()
 
 # # SQLR system
@@ -60,7 +60,7 @@ test_check("pharmacology")
 #
 # ## Get statistics about a trial or selection process in general
 #
-# sqlr::selection_stats("[ADD TRIAL ID]")
+# sqlr::selection_stats(trial = "[ADD TRIAL ID]")
 # sqlr::selection_stats()
 #
 # ## Updating 'reference' and populating 'trial_*'

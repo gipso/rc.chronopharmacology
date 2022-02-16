@@ -2,7 +2,7 @@
 % Please edit documentation in R/raw_data.R
 \name{raw_data}
 \alias{raw_data}
-\title{Get paths to \code{pharmacology} raw data}
+\title{Get paths to \code{rc.chronopharmacology} raw data}
 \usage{
 raw_data(type = NULL, file = NULL)
 }
@@ -25,7 +25,8 @@ names available from type.
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 
-\code{raw_data()} returns the raw data paths of the \code{pharmacology} package.
+\code{raw_data()} returns the raw data paths of the \code{rc.chronopharmacology}
+package.
 }
 \examples{
 \dontrun{

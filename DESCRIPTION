@@ -1,5 +1,5 @@
-Package: pharmacology
-Title: Research Compendium of the GIPSO B. Rhythms and Pharmacology SQLR
+Package: rc.chronopharmacology
+Title: Research Compendium of the GIPSO Chronopharmacology SQLR
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Alisson",
@@ -21,13 +21,12 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: An R package with the research compendium of the GIPSO's 
-     biological rhythms and pharmacology systematic quantitative literature 
-     review.
+Description: An R package with the research compendium of the GIPSO 
+     chronopharmacology systematic quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipso.github.io/pharmacology/, 
-     https://github.com/gipso/pharmacology/
-BugReports: https://github.com/gipso/pharmacology/issues/
+URL: https://gipso.github.io/rc.chronopharmacology/, 
+     https://github.com/gipso/rc.chronopharmacology/
+BugReports: https://github.com/gipso/rc.chronopharmacology/issues/
 Depends:
     R (>= 4.1)
 Imports: 

@@ -12,22 +12,22 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 
-library(pharmacology)
+library(rc.chronopharmacology)
 ```
 
-# pharmacology <a href='https://gipso.github.io/pharmacology'><img src='man/figures/logo.png' align="right" height="139" /></a>
+# rc.chronopharmacology
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/gipso/pharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/pharmacology/actions)
-[![Codecov test coverage](https://codecov.io/gh/gipso/pharmacology/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/pharmacology?branch=main)
+[![R-CMD-check](https://github.com/gipso/rc.chronopharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/rc.chronopharmacology/actions)
+[![Codecov test coverage](https://codecov.io/gh/gipso/rc.chronopharmacology/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/rc.chronopharmacology?branch=main)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
 ## Overview
 
-`pharmacology` is an R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review. The aim of `pharmacology` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
+`rc.chronopharmacology` is an R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review. The aim of `rc.chronopharmacology` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger & Lincoln Mullen's article ["Packaging Data Analytical Work Reproducibly Using R (and Friends)"](https://doi.org/10.1080/00031305.2017.1375986).
 
@@ -35,19 +35,19 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR) [here](https:
 
 ## Installation
 
-You can install `pharmacology` from GitHub with:
+You can install `rc.chronopharmacology` from GitHub with:
 
 ``` {r, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("gipso/pharmacology")
+remotes::install_github("gipso/rc.chronopharmacology")
 ```
 
 We don’t intend to publish this package to CRAN.
 
 ## Citation
 
-If you use `pharmacology` in your research, please consider citing it. We put a lot of work to build and maintain a free and open-source R package. You can find the `pharmacology` citation below.
+If you use `rc.chronopharmacology` in your research, please consider citing it. We put a lot of work to build and maintain a free and open-source R package. You can find the `rc.chronopharmacology` citation below.
 
 ```{r}
-citation("pharmacology")
+citation("rc.chronopharmacology")
 ```

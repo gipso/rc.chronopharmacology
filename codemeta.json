@@ -1,17 +1,12 @@
 {
-  "@context": [
-    "https://doi.org/10.5063/schema/codemeta-2.0",
-    "http://schema.org"
-  ],
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
-  "identifier": "pharmacology",
-  "description": "An R package with the research compendium of the GIPSO's \n     biological rhythms and pharmacology systematic quantitative literature \n     review.",
-  "name": "pharmacology: Research Compendium of the GIPSO's B. Rhythms and Pharmacology SQLR",
-  "codeRepository": "https://github.com/gipso/pharmacology/",
-  "relatedLink": [
-    "https://gipso.github.io/pharmacology/"
-  ],
-  "issueTracker": "https://github.com/gipso/pharmacology/issues/",
+  "identifier": "rc.chronopharmacology",
+  "description": "An R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review.",
+  "name": "rc.chronopharmacology: Research Compendium of the GIPSO Chronopharmacology SQLR",
+  "relatedLink": "https://gipso.github.io/rc.chronopharmacology/",
+  "codeRepository": "https://github.com/gipso/rc.chronopharmacology/",
+  "issueTracker": "https://github.com/gipso/rc.chronopharmacology/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
   "programmingLanguage": {
@@ -43,7 +38,6 @@
       "@id": "https://orcid.org/0000-0002-5257-591X"
     }
   ],
-  "contributor": {},
   "copyrightHolder": [
     {
       "@type": "Person",
@@ -84,6 +78,7 @@
       "@type": "SoftwareApplication",
       "identifier": "covr",
       "name": "covr",
+      "version": ">= 3.5.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -96,6 +91,7 @@
       "@type": "SoftwareApplication",
       "identifier": "knitr",
       "name": "knitr",
+      "version": ">= 1.36",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -108,6 +104,7 @@
       "@type": "SoftwareApplication",
       "identifier": "mockr",
       "name": "mockr",
+      "version": ">= 0.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -120,6 +117,7 @@
       "@type": "SoftwareApplication",
       "identifier": "rmarkdown",
       "name": "rmarkdown",
+      "version": ">= 2.11",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -132,6 +130,7 @@
       "@type": "SoftwareApplication",
       "identifier": "spelling",
       "name": "spelling",
+      "version": ">= 2.2",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -154,14 +153,14 @@
       "sameAs": "https://CRAN.R-project.org/package=testthat"
     }
   ],
-  "softwareRequirements": [
-    {
+  "softwareRequirements": {
+    "1": {
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
       "version": ">= 4.1"
     },
-    {
+    "2": {
       "@type": "SoftwareApplication",
       "identifier": "checkmate",
       "name": "checkmate",
@@ -174,11 +173,11 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=checkmate"
     },
-    {
+    "3": {
       "@type": "SoftwareApplication",
       "identifier": "cli",
       "name": "cli",
-      "version": ">= 3.0.1",
+      "version": ">= 3.1.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -187,7 +186,7 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=cli"
     },
-    {
+    "4": {
       "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
@@ -200,17 +199,17 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=dplyr"
     },
-    {
+    "5": {
       "@type": "SoftwareApplication",
       "identifier": "gutils",
       "name": "gutils",
       "sameAs": "https://github.com/gipso/gutils"
     },
-    {
+    "6": {
       "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
-      "version": ">= 1.0.0",
+      "version": ">= 1.0.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -219,22 +218,15 @@
       },
       "sameAs": "https://CRAN.R-project.org/package=lifecycle"
     },
-    {
+    "7": {
       "@type": "SoftwareApplication",
       "identifier": "sqlr",
       "name": "sqlr",
       "sameAs": "https://github.com/gipsousp/sqlr"
-    }
-  ],
-  "fileSize": "54633.231KB",
-  "contIntegration": ["https://github.com/gipso/pharmacology/actions", "https://codecov.io/gh/gipso/pharmacology?branch=main"],
-  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
-  "keywords": [
-    "r-package",
-    "sleep",
-    "chronobiology",
-    "systematic-review"
-  ],
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "54690.629KB",
   "citation": [
     {
       "@type": "CreativeWork",
@@ -256,11 +248,14 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "{pharmacology}: an R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review",
-      "url": "https://gipso.github.io/pharmacology/",
+      "name": "{rc.chronopharmacology}: an R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review",
+      "url": "https://gipso.github.io/rc.chronopharmacology/",
       "description": "Lifecycle: experimental"
     }
   ],
-  "releaseNotes": "https://github.com/gipso/pharmacology/blob/master/NEWS.md",
-  "readme": "https://github.com/gipso/pharmacology/blob/main/README.md"
+  "releaseNotes": "https://github.com/gipso/rc.chronopharmacology/blob/master/NEWS.md",
+  "readme": "https://github.com/gipso/rc.chronopharmacology/blob/main/README.md",
+  "contIntegration": ["https://github.com/gipso/rc.chronopharmacology/actions", "https://codecov.io/gh/gipso/rc.chronopharmacology?branch=main"],
+  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
+  "keywords": ["r-package", "sleep", "chronobiology", "systematic-review", "r", "chronopharmacology"]
 }
