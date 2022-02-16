@@ -5,23 +5,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Research Compendium of the GIPSO B. Rhythms and Pharmacology SQLR • pharmacology</title>
-<!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
-<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
+<title>Research Compendium of the GIPSO Chronopharmacology SQLR • rc.chronopharmacology</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/cosmo/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Research Compendium of the GIPSO B. Rhythms and Pharmacology SQLR">
-<meta property="og:description" content="An R package with the research compendium of the GIPSO's 
-     biological rhythms and pharmacology systematic quantitative literature 
-     review.">
-<meta property="og:image" content="https://gipso.github.io/pharmacology/logo.png">
+<script src="pkgdown.js"></script><meta property="og:title" content="Research Compendium of the GIPSO Chronopharmacology SQLR">
+<meta property="og:description" content="An R package with the research compendium of the GIPSO 
+     chronopharmacology systematic quantitative literature review.">
 <meta name="robots" content="noindex">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -48,7 +40,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">pharmacology</a>
+        <a class="navbar-link" href="index.html">rc.chronopharmacology</a>
         <span class="version label label-warning" data-toggle="tooltip" data-placement="bottom" title="Unreleased version">0.0.0.9000</span>
       </span>
     </div>
@@ -61,7 +53,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/gipso/pharmacology/" class="external-link">
+  <a href="https://github.com/gipso/rc.chronopharmacology/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -79,48 +71,47 @@
       </header><div class="row">
   <div class="contents col-md-9">
 <div class="section level1">
-<div class="page-header"><h1 id="pharmacology-">pharmacology <a href="https://gipso.github.io/pharmacology"><img src="reference/figures/logo.png" align="right" height="139"></a>
-<a class="anchor" aria-label="anchor" href="#pharmacology-"></a>
+<div class="page-header"><h1 id="rcchronopharmacology">rc.chronopharmacology<a class="anchor" aria-label="anchor" href="#rcchronopharmacology"></a>
 </h1></div>
 <!-- badges: start -->
 
 <div class="section level2">
 <h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p><code>pharmacology</code> is an R package with the research compendium of the GIPSO’s biological rhythms and pharmacology systematic quantitative literature review. The aim of <code>pharmacology</code> is to facilitate the research work, in addition to contributing to the reproducibility of the research.</p>
+<p><code>rc.chronopharmacology</code> is an R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review. The aim of <code>rc.chronopharmacology</code> is to facilitate the research work, in addition to contributing to the reproducibility of the research.</p>
 <p>The assemble of this package was inspired by Ben Marwick, Carl Boettiger &amp; Lincoln Mullen’s article <a href="https://doi.org/10.1080/00031305.2017.1375986" class="external-link">“Packaging Data Analytical Work Reproducibly Using R (and Friends)”</a>.</p>
 <p>Learn more about Systematic Quantitative Literature Reviews (SQLR) <a href="https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review" class="external-link">here</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install <code>pharmacology</code> from GitHub with:</p>
+<p>You can install <code>rc.chronopharmacology</code> from GitHub with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"gipso/pharmacology"</span><span class="op">)</span></code></pre></div>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"gipso/rc.chronopharmacology"</span><span class="op">)</span></code></pre></div>
 <p>We don’t intend to publish this package to CRAN.</p>
 </div>
 <div class="section level2">
 <h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
 </h2>
-<p>If you use <code>pharmacology</code> in your research, please consider citing it. We put a lot of work to build and maintain a free and open-source R package. You can find the <code>pharmacology</code> citation below.</p>
+<p>If you use <code>rc.chronopharmacology</code> in your research, please consider citing it. We put a lot of work to build and maintain a free and open-source R package. You can find the <code>rc.chronopharmacology</code> citation below.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"pharmacology"</span><span class="op">)</span>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"rc.chronopharmacology"</span><span class="op">)</span>
 <span class="co">#&gt; </span>
-<span class="co">#&gt; To cite {pharmacology} in publications use:</span>
+<span class="co">#&gt; To cite {rc.chronopharmacology} in publications use:</span>
 <span class="co">#&gt; </span>
-<span class="co">#&gt;   Santos, A. S. R., Vartanian, D., Pedrazzoli, M. (2021).</span>
-<span class="co">#&gt;   {pharmacology}: an R package with the research compendium of the</span>
-<span class="co">#&gt;   GIPSO's biological rhythms and pharmacology systematic quantitative</span>
-<span class="co">#&gt;   literature review. https://gipso.github.io/pharmacology/.</span>
+<span class="co">#&gt;   Santos, A. S. R., Vartanian, D., &amp; Pedrazzoli, M. (2021).</span>
+<span class="co">#&gt;   {rc.chronopharmacology}: an R package with the research compendium of</span>
+<span class="co">#&gt;   the GIPSO chronopharmacology systematic quantitative literature</span>
+<span class="co">#&gt;   review. https://gipso.github.io/rc.chronopharmacology/</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; A BibTeX entry for LaTeX users is</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt;   @Unpublished{,</span>
-<span class="co">#&gt;     title = {{pharmacology}: an R package with the research compendium of the GIPSO's biological rhythms and pharmacology systematic quantitative literature review},</span>
+<span class="co">#&gt;     title = {{rc.chronopharmacology}: an R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review},</span>
 <span class="co">#&gt;     author = {Alisson da Silva Rodrigues dos Santos and Daniel Vartanian and Mario Pedrazzoli},</span>
 <span class="co">#&gt;     year = {2021},</span>
-<span class="co">#&gt;     url = {https://gipso.github.io/pharmacology/},</span>
+<span class="co">#&gt;     url = {https://gipso.github.io/rc.chronopharmacology/},</span>
 <span class="co">#&gt;     note = {Lifecycle: experimental},</span>
 <span class="co">#&gt;   }</span></code></pre></div>
 </div>
@@ -131,8 +122,8 @@
     <div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/gipso/pharmacology/" class="external-link">Browse source code</a></li>
-<li><a href="https://github.com/gipso/pharmacology/issues/" class="external-link">Report a bug</a></li>
+<li><a href="https://github.com/gipso/rc.chronopharmacology/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/gipso/rc.chronopharmacology/issues/" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
@@ -148,7 +139,7 @@
 <div class="citation">
 <h2 data-toc-skip>Citation</h2>
 <ul class="list-unstyled">
-<li><a href="authors.html#citation">Citing pharmacology</a></li>
+<li><a href="authors.html#citation">Citing rc.chronopharmacology</a></li>
 </ul>
 </div>
 
@@ -173,8 +164,8 @@
 <ul class="list-unstyled">
 <li><a href="https://www.repostatus.org/#wip" class="external-link"><img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public."></a></li>
 <li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
-<li><a href="https://github.com/gipso/pharmacology/actions" class="external-link"><img src="https://github.com/gipso/pharmacology/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
-<li><a href="https://codecov.io/gh/gipso/pharmacology?branch=main" class="external-link"><img src="https://codecov.io/gh/gipso/pharmacology/branch/main/graph/badge.svg" alt="Codecov test coverage"></a></li>
+<li><a href="https://github.com/gipso/rc.chronopharmacology/actions" class="external-link"><img src="https://github.com/gipso/rc.chronopharmacology/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://codecov.io/gh/gipso/rc.chronopharmacology?branch=main" class="external-link"><img src="https://codecov.io/gh/gipso/rc.chronopharmacology/branch/main/graph/badge.svg" alt="Codecov test coverage"></a></li>
 <li><a href="https://choosealicense.com/licenses/mit/" class="external-link"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT"></a></li>
 </ul>
 </div>
