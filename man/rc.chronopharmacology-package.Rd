@@ -6,7 +6,7 @@
 \alias{rc.chronopharmacology-package}
 \title{rc.chronopharmacology: Research Compendium of the GIPSO Chronopharmacology SQLR}
 \description{
-An R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review.
+Research compendium of the Interdisciplinary Sleep Research Group (GIPSO) chronopharmacology systematic quantitative literature review.
 }
 \seealso{
 Useful links:

@@ -10,8 +10,8 @@ license: MIT
 title: 'rc.chronopharmacology: Research Compendium of the GIPSO Chronopharmacology
   SQLR'
 version: 0.0.0.9000
-abstract: An R package with the research compendium of the GIPSO chronopharmacology
-  systematic quantitative literature review.
+abstract: Research compendium of the Interdisciplinary Sleep Research Group (GIPSO)
+  chronopharmacology systematic quantitative literature review.
 authors:
 - family-names: da Silva Rodrigues dos Santos
   given-names: Alisson
@@ -40,7 +40,7 @@ preferred-citation:
     given-names: Mario
     email: pedrazzo@usp.br
     orcid: https://orcid.org/0000-0002-5257-591X
-  year: '2021'
+  year: '2022'
   url: https://gipso.github.io/rc.chronopharmacology/
   notes: 'Lifecycle: experimental'
 repository-code: https://github.com/gipso/rc.chronopharmacology/issues/

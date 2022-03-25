@@ -20,9 +20,10 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 ## Overview
 
 `rc.chronopharmacology` is an R package with the research compendium of
-the GIPSO chronopharmacology systematic quantitative literature review.
-The aim of `rc.chronopharmacology` is to facilitate the research work,
-in addition to contributing to the reproducibility of the research.
+the Interdisciplinary Sleep Research Group (GIPSO) chronopharmacology
+systematic quantitative literature review. The aim of
+`rc.chronopharmacology` is to facilitate the research work, in addition
+to contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
 & Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly

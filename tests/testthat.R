@@ -34,6 +34,10 @@ test_check("rc.chronopharmacology")
 # usethis::use_logo(file.choose())
 # usethis::use_tidy_description()
 
+# # Data packages
+#
+# See: <https://docs.ropensci.org/frictionless/>
+
 # # SQLR system
 #
 # googlesheets4::gs4_auth()
@@ -69,5 +73,5 @@ test_check("rc.chronopharmacology")
 # sqlr::write_metadata("[ADD SHEETS ID]")
 # sqlr::write_sheet()
 # sqlr::update_reference("[ADD TRIAL ID]")
+# sqlr::selection_stats()
 # sqlr::write_trial("[ADD TRIAL ID]")
-# sqlr::selection_stats(package = "[ADD PACKAGE NAME]")

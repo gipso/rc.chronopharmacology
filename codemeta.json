@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "identifier": "rc.chronopharmacology",
-  "description": "An R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review.",
+  "description": "Research compendium of the Interdisciplinary Sleep Research Group (GIPSO) chronopharmacology systematic quantitative literature review.",
   "name": "rc.chronopharmacology: Research Compendium of the GIPSO Chronopharmacology SQLR",
   "relatedLink": "https://gipso.github.io/rc.chronopharmacology/",
   "codeRepository": "https://github.com/gipso/rc.chronopharmacology/",
@@ -226,11 +226,11 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "54690.629KB",
+  "fileSize": "54679.67KB",
   "citation": [
     {
       "@type": "CreativeWork",
-      "datePublished": "2021",
+      "datePublished": "2022",
       "author": [
         {
           "@type": "Person",

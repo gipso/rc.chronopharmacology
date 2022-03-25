@@ -13,5 +13,5 @@
 ^man-roxygen$
 ^Meta$
 ^pkgdown$
+^rc\.chronopharmacology\.Rproj$
 ^README\.Rmd$
-^rc.chronopharmacology\.Rproj$

@@ -21,8 +21,8 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: An R package with the research compendium of the GIPSO 
-     chronopharmacology systematic quantitative literature review.
+Description: Research compendium of the Interdisciplinary Sleep Research Group 
+    (GIPSO) chronopharmacology systematic quantitative literature review.
 License: MIT + file LICENSE
 URL: https://gipso.github.io/rc.chronopharmacology/, 
      https://github.com/gipso/rc.chronopharmacology/
