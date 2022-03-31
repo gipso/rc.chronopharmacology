@@ -55,7 +55,7 @@ citation("rc.chronopharmacology")
 #> 
 #> To cite {rc.chronopharmacology} in publications use:
 #> 
-#>   Santos, A. S. R., Vartanian, D., & Pedrazzoli, M. (2021).
+#>   Rodrigues-Santos, A. S., Vartanian, D., & Pedrazzoli, M. (2022).
 #>   {rc.chronopharmacology}: an R package with the research compendium of
 #>   the GIPSO chronopharmacology systematic quantitative literature
 #>   review. https://gipso.github.io/rc.chronopharmacology/
@@ -65,7 +65,7 @@ citation("rc.chronopharmacology")
 #>   @Unpublished{,
 #>     title = {{rc.chronopharmacology}: an R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review},
 #>     author = {Alisson da Silva Rodrigues dos Santos and Daniel Vartanian and Mario Pedrazzoli},
-#>     year = {2021},
+#>     year = {2022},
 #>     url = {https://gipso.github.io/rc.chronopharmacology/},
 #>     note = {Lifecycle: experimental},
 #>   }
